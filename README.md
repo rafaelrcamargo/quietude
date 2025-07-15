@@ -4,20 +4,6 @@ a crafted dark theme that cuts visual clutter but stays readable. its low-contra
 
 ![preview](https://raw.githubusercontent.com/rafaelrcamargo/quietude/main/demo.png)
 
-## color palette
-
-the theme uses a selection of muted, earthy tones:
-
-- **background**: `#1a1a1f`: deep, soft black
-- **foreground**: `#bab39c`: warm beige for main text
-- **comments**: `#565552`: subtle gray for non-intrusive comments
-- **strings**: `#938f82`: muted brown
-- **functions**: `#6c765c`: soft green
-- **types/classes**: `#ca9e66`: warm orange
-- **keywords**: `#73716b`: dusty brown
-- **links/references**: `#6578a6`: soft blue
-- **errors**: `#c15e55`: muted red
-
 ## installation
 
 1. open the extensions sidebar in vs code (`view → extensions`)
