@@ -1,22 +1,50 @@
 {
-  "name": "minimal",
-  "displayName": "minimal",
-  "description": "",
-  "version": "0.0.1",
+  "name": "quietude",
+  "displayName": "quietude",
+  "description": "a carefully crafted dark theme for vs code that reduces visual clutter while maintaining excellent readability",
+  "version": "0.1.0",
+  "publisher": "rafaelrcamargo",
+  "author": {
+    "name": "rafaelrcamargo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelrcamargo/quietude"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaelrcamargo/quietude/issues"
+  },
+  "homepage": "https://github.com/rafaelrcamargo/quietude#readme",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.98.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "quietude",
+    "quiet",
+    "clean",
+    "simple",
+    "elegant",
+    "low contrast",
+    "muted colors",
+    "productivity"
+  ],
+  "galleryBanner": {
+    "color": "#1a1a1f",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Minimal",
+        "label": "quietude",
         "uiTheme": "vs-dark",
-        "path": "./themes/Minimal-color-theme.json"
+        "path": "./themes/quietude-color-theme.json"
       }
     ]
-  },
-  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39"
+  }
 }
