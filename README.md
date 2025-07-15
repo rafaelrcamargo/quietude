@@ -2,7 +2,7 @@
 
 a crafted dark theme that cuts visual clutter but stays readable. its low-contrast, muted colors are easy on the eyes, making it great for long coding sessions.
 
-![preview](https://raw.githubusercontent.com/rafaelrcamargo/quietude/main/preview.png)
+![preview](https://raw.githubusercontent.com/rafaelrcamargo/quietude/main/demo.png)
 
 ## color palette
 
