@@ -18,7 +18,7 @@ want to tweak the theme? you can override specific colors in your vs code settin
 
 ```json
 "workbench.colorCustomizations": {
-  "[Quietude]": {
+  "[quietude]": {
     "editor.background": "#1a1a1f",
     "editor.foreground": "#bab39c"
   }
@@ -31,4 +31,4 @@ found a bug or have an idea? open an issue on [github](https://github.com/rafael
 
 ## license
 
-mit license, see the [license](license) file for details
+mit license, see the [LICENSE](LICENSE) file for details
