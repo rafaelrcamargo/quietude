@@ -5,3 +5,5 @@
 demo.png
 **/.DS_Store
 *.vsix
+colors/**
+lua/**
