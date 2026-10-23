@@ -1,16 +1,59 @@
-# quietude theme for vs code
+# quietude theme
 
-a crafted dark theme that cuts visual clutter but stays readable. its low-contrast, muted colors are easy on the eyes, making it great for long coding sessions.
+a crafted dark theme for vs code, cursor, zed, neovim, ghostty, and bat that cuts visual clutter but stays readable. its low-contrast, muted colors are easy on the eyes, making it great for long coding sessions.
 
 ![preview](https://raw.githubusercontent.com/rafaelrcamargo/quietude/main/demo.png)
 
 ## installation
+
+### vs code / cursor
 
 1. open the extensions sidebar in vs code (`view → extensions`)
 2. search for "quietude"
 3. click install
 4. click reload to reload vs code
 5. go to `code → preferences → color theme` and pick "quietude"
+
+### neovim
+
+quietude requires neovim 0.12 or newer. with neovim's native package manager:
+
+```lua
+vim.pack.add({
+  { src = "https://github.com/rafaelrcamargo/quietude" },
+}, { load = true })
+
+vim.cmd.colorscheme("quietude")
+```
+
+configuration is optional and must run before `:colorscheme quietude`:
+
+```lua
+require("quietude").setup({
+  transparent = true,
+  terminal_colors = true,
+})
+```
+
+transparent mode affects the main editing canvas and gutters; floating windows,
+completion menus, and picker surfaces stay opaque for readability.
+
+the neovim variant includes native ui, tree-sitter, lsp semantic token,
+diagnostic, telescope, blink.cmp, gitsigns, copilot, and twilight highlights.
+
+### ghostty
+
+1. create `~/.config/ghostty/themes` if it does not exist
+2. copy [`themes/quietude`](themes/quietude) to `~/.config/ghostty/themes/quietude`
+3. add `theme = quietude` to `~/.config/ghostty/config.ghostty`
+4. reload ghostty with `cmd + shift + ,` on macos or `ctrl + shift + ,` on linux
+
+### bat
+
+1. create `$(bat --config-dir)/themes` if it does not exist
+2. copy [`themes/quietude.tmTheme`](themes/quietude.tmTheme) into that directory
+3. run `bat cache --build`
+4. use `bat --theme=quietude path/to/file`, or add `--theme="quietude"` to the file shown by `bat --config-file`
 
 ## customization
 
