@@ -1,0 +1,28 @@
+# quietude for Ghostty
+
+palette = 0=#282c33
+palette = 1=#b4685f
+palette = 2=#7b856a
+palette = 3=#ca9e66
+palette = 4=#6578a6
+palette = 5=#8f73a5
+palette = 6=#88a3b0
+palette = 7=#a79879
+palette = 8=#57554f
+palette = 9=#b4685f
+palette = 10=#95a679
+palette = 11=#edb253
+palette = 12=#6578a6
+palette = 13=#926fad
+palette = 14=#88a3b0
+palette = 15=#a79879
+
+background = #1a1a1f
+foreground = #bab39c
+
+cursor-color = #b7b7b0
+cursor-text = #1a1a1f
+
+# Opaque equivalent of #deb17840 over the theme background.
+selection-background = #4b4035
+selection-foreground = #bab39c
